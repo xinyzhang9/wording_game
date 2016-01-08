@@ -9,6 +9,9 @@
 	font-family: "Courier New", Courier, monospace;
 	display:inline-block;
 	vertical-align: top;
+	background-image: url('background.jpg');
+	background-size: 500px 400px;
+	background-repeat: no-repeat;
 }
 #word {
 	font-size:18px;
