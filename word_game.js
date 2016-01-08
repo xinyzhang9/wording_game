@@ -37,6 +37,8 @@ function PlayGround(selector, selector_word, selector_score)
 				console.log('#word_' + this.words[i].id);
 				$('#word_' + this.words[i].id).remove();
 				this.score = this.score + 50;
+				var snd = new Audio("glass.wav");
+				snd.play();
 			}
 		}
 
@@ -93,7 +95,7 @@ function PlayGround(selector, selector_word, selector_score)
 
 function Word(id)
 {
-	var words = ["Coding", "Dojo", "awesome", "rocks", "amazing"];
+	var words = ["ronaldo", "messi", "bale", "neymar", "suarez", "kroos", "modric", "hazard"];
 	this.x = 0;
 	this.y = 0;
 	this.id = id;
